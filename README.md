@@ -1,3 +1,5 @@
+# link-state-routing
+
 Project Description
 
 The program is designed to realise a link state protocol using Dijkstra’s algorithm to compute the shortest path between two nodes. Assuming that all nodes are initialised simultaneously, the neighbour information is acquired by each node from the config file and the information of other non-neighbour is retransmitted from direct neighbours. In this case, every node needs to send the information of the neighbours to their own neighbours periodically and also transmit link state packets from their own neighbours to other neighbours as well. Each node is represented by a Node class and each node keeps the information of the whole network in a class called knowledge.
